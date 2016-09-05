@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Search</title>
+    <link rel="stylesheet/less" type="text/css" href="./assets/css/youtubestyle.less" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+</head>
+<body>
+<div id="buttons">
+    <label> <input name="ykeyword" type="text"/><button id="search-button" disabled onclick="search()">Search</button></label>
+</div>
+<div id="search-results"></div>
+<div id="paging-next"></div>
+<div id="paging-prev"></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="./assets/js/search.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+
+</body>
+</html>
