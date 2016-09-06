@@ -26,7 +26,7 @@ function init() {
 
 function onYouTubeApiLoad() {
     //your API key
-    gapi.client.setApiKey('AIzaSyDioXwQbyDNbx9mfC6WbPDhiPIrPeDzIqU');
+    gapi.client.setApiKey('you_API_access_key');
 }
 
 function search(nexprev) {
